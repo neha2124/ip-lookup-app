@@ -3,8 +3,8 @@ const look = document.querySelector("#lookup")
 const ipdisplay = document.querySelector(".ip-display")
 const locationDisplay = document.querySelector(".location-display")
 const geo = document.querySelector(".geo-location")
-const load = document.querySelector(".loading-container")
-const detail = document.querySelector(".data")
+// const load = document.querySelector(".loading-container")
+// const detail = document.querySelector(".data")
 look.addEventListener("click",()=>{
     
     fetch(url)
